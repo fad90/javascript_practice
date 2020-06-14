@@ -18,7 +18,7 @@ body {
     border-radius: 12px;
     height: 17px;
     outline: none;
-    background: linear-gradient(90deg,#59f083 50%, #ffffff 50% );
+    background: linear-gradient(90deg, rgb(117,252,117) 60%, rgb(214,214,214) 60% );
 }
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;

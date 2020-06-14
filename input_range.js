@@ -1,6 +1,7 @@
 let slider = document.querySelector(".slider");
 
-function range() {
-    let val = slider.value;
-    slider.style.background = 'linear-gradient(90deg,#59f083' + x + '%, #ffffff' + x + '% )';
-}
+slider.addEventListener("mousemove", function(){
+    let x = slider.value;
+    let color = 'linear-gradient(90deg, rgb(117,252,117)' + x + '%, rgb(214,214,214)' + x + '%)';
+    slider.style.background = color;
+})
